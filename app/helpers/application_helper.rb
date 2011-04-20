@@ -2,7 +2,7 @@ module ApplicationHelper
   
   # Return a title
   def title
-    base_title = "Sample App 3"
+    base_title = "Groupiverse Beta"
     if @title.nil?
       base_title
     else
@@ -11,7 +11,7 @@ module ApplicationHelper
   end
   
   def logo
-    image_tag("logo.png", :alt => "Sample App", :class => "round")
+    image_tag("logo.png", :alt => "Groupiverse Beta", :class => "round")
   end
   
 end
